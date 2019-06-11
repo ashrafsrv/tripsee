@@ -1,0 +1,136 @@
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar {
+    top:0px;
+    position: sticky;
+    height:20%;
+}
+
+.page-padding {
+    padding: 20px;
+}
+
+
+.trip-title {
+    position: absolute;
+    font-size: 50px;
+    top:100px;
+    padding:0px;
+    margin-left:20px;
+}
+
+#loading {
+    position:relative;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.creator-sidebar {
+    background-color: lightgrey;
+    width:20%;
+    height: 85%;
+    position: absolute;
+}
+
+div.map-container > div:first-of-type{
+    width: 80% !important;
+    height: 85% !important;
+    right: 0;
+}
+
+.map-padding {
+    margin-left:288px;
+}
+
+
+#search-bar {
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-padding {
+    padding:20px;
+}
+
+.trip-list {
+    height: 440px;
+    overflow:scroll;
+}
+
+.btn-create-trip {
+    background-color: #A63D40;
+    color: white;
+    width:100%;
+    font-weight: bold;
+}
+
+.stop-bubble {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F4F2F3;
+    color: #A63D40;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.info-card {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 6%;
+    height:100px;
+    width: 80%;
+    right: 0px;
+    padding: 20px;
+    box-shadow: 11px 0px 20px 0px grey;
+}
+
+.info-card-enter {
+    height: 0px;
+}
+
+.info-card-enter.info-card-enter-active {
+    height: 100px;
+    -webkit-transition: height .3s ease;
+}
+
+.info-card-leave.info-card-leave-active {
+    height: 0px;
+    -webkit-transition: height .3s ease;
+}
+
+.info-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-add-stop {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+#input-trip-name {
+    width: 100%;
+}
+
+#btn-logout {
+    position: absolute;
+    right: 15px;
+}
+
+#btn-profile {
+    position: absolute;
+    right:100px;
+    border-color: black;
+    border-width: 3px;
+}

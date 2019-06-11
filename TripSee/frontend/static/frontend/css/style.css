@@ -1,0 +1,88 @@
+/*Profile and Edit profile CSS*/
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar {
+    top:0px;
+    position: sticky;
+}
+
+.page-padding {
+    padding: 20px;
+}
+
+.App-logo{
+  width: 200px;
+  height: 200px;
+}
+
+
+ #user-profile {
+  position: sticky;
+  float: left;
+  width: 350px;
+  height: 770px;
+
+
+  background: #f0f0f5;
+  padding: 12px;
+  margin: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+
+  .top, .bottom {
+    padding: 10px;
+
+  }
+
+  .bottom {
+    background-color: rgba(white, 0.3);
+    text-align: left;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 15px;
+    /*border: 1px solid #000;*/
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.tripDisplay {
+  position: absolute;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.trip-tile {
+  position: sticky;
+  float: left;
+  width: 300px;
+/*  border: 1px solid black;*/
+  padding:0px;
+  margin: 10px;
+  margin-top: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.top-trip-tile, .bottom-trip-tile {
+  height: 125px;
+  padding: 10px 10px 10px 10px;
+}
+
+.top-trip-tile {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color:  #d5e1df;
+}

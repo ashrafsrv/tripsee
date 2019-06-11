@@ -1,0 +1,43 @@
+{
+  "name": "wowzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./TripSee/frontend/src/index.js --output ./TripSee/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./TripSee/frontend/src/index.js --output ./TripSee/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.sydney.edu.au/Internet-Software-Platform/wowzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.30.16",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.4.18",
+    "google-maps-react": "^2.0.2",
+    "js-cookie": "^2.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.32.4",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.3.1",
+    "recompose": "^0.30.0"
+  }
+}

@@ -1,0 +1,210 @@
+.search-header {
+    background-color: darkgrey;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search {
+    width:100%;
+    height:100%;
+    margin-top:6px;
+    background-color:lightgrey;
+    display:inline-block;
+}
+
+.search-contents {
+    margin:20px;
+    font-size:20px;
+    width:150px;
+    height:100px;
+    background-color: lightgrey;
+    border-top:0px;
+}
+
+.search-padding {
+    margin:10px;
+}
+
+.search-page {
+    display:flex;
+    flex-direction:row;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.author {
+    font-size: 20px;
+    position: absolute;
+    top: 165px;
+    margin-left:20px;
+}
+
+.trip-title {
+    position: absolute;
+    font-size: 50px;
+    top:100px;
+    padding:0px;
+    margin-left:20px;
+}
+
+.trip-header {
+    background-color: darkgrey;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.review-box {
+    position:sticky;
+    float:right;
+    margin-right:150px;
+    margin-top:-100px;
+    width:30%
+}
+
+
+.trip-review {
+    width:100%;
+    height:100%;
+    margin-top:6px;
+    background-color:lightgrey;
+}
+
+.trip-review-contents {
+    margin:20px;
+    font-size:20px;
+    height:220px;
+    background-color: lightgrey;
+    border-top:0px;
+}
+
+
+.write-review-header {
+    font-size:20px;
+}
+
+.review-bar {
+    width:100%;
+    height:60px;
+}
+
+
+.trip-star-rating {
+  margin-top:100px;
+  margin-left:630px;
+  padding-bottom:-100px;
+  font-size:20px;
+  position:relative;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  color:orange;
+}
+.trip-star-rating > button {
+  display: inline-block;
+  width:25px;
+  position:relative;
+  background-color: Transparent;
+  border: none;
+}
+
+.trip-description {
+  position:absolute;
+  margin-top:400px;
+  margin-left:70px;
+  width:85%;
+}
+
+.completed-trip-block {
+  margin-left:50px;
+}
+
+
+.star-rating {
+  margin-top:-50px;
+  margin-left:260px;
+}
+.star-rating__star {
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1.5em;
+    color: #ABABAB;
+    transition: color .2s ease-out;
+}
+.star-rating:hover {
+      cursor: pointer;
+}
+
+.is-selected {
+      color:orange;
+}
+
+.is-disabled:hover {
+      color:red;
+      cursor: default;
+}
+
+
+/* averaged trip rating value */
+.trip-star-rating-outer {
+  display: inline-block;
+  position:relative;
+  font-family: FontAwesome;
+  font-size:40px;
+  margin-left:500px;
+  margin-top:70px;
+}
+
+.trip-star-rating-outer::before {
+  content: "☆ ☆ ☆ ☆ ☆";
+  /* empty star */
+}
+
+.trip-star-rating-inner {
+  position:absolute;
+  top:0;
+  left:0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  font-size:40px;
+  text-align:right;
+  /* margin-left:400px; */
+  /* filled in star */
+}
+
+.trip-star-rating-inner::before {
+  content: "★ ★ ★ ★ ★";
+  color:orange;
+.info-card {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 6%;
+    height:100px;
+    width: 80%;
+    right: 0px;
+    padding: 20px;
+    box-shadow: 11px 0px 20px 0px grey;
+}
+
+
+.map-padding-1 {
+    margin-left:20px;
+    width: 30%;
+}

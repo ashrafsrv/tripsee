@@ -1,0 +1,35 @@
+.DS_Store
+.vagrant/
+*__pycache__/
+db.sqlite3
+ubuntu-xenial-16.04-cloudimg-console.log
+.vscode/*
+pyenv/*
+jina/*
+Testignore.js
+**/main.js
+TripSee/frontend/static/frontend/main.js
+node_modules/*
+rona/*
+
+#----------REACT-IGNORE-STUFF----------*
+# dependencies
+trip-see-react/node_modules
+
+# testing
+trip-see-react/coverage
+
+# production
+# trip-see-react/build
+
+# misc
+trip-see-react/.DS_Store
+trip-see-react/.env.local
+trip-see-react/.env.development.local
+trip-see-react/.env.test.local
+trip-see-react/.env.production.local
+
+trip-see-react/npm-debug.log*
+trip-see-react/yarn-debug.log*
+trip-see-react/yarn-error.log*
+#----------/REACT-IGNORE-STUFF----------*
