@@ -16,7 +16,8 @@ to install python requirements
 ```npm install```
 to install node requirements
 
-### Running the website
+```python3 manage.py makemigrations```
+to create database instance
 
 To run the website
 
@@ -24,4 +25,4 @@ To run the website
 to build/compile the javascript
 
 ```python3 TripSee/manage.py runserver```
-to run the server
+to run the server ---> from a different terminal
